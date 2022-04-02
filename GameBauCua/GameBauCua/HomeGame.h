@@ -23,6 +23,7 @@ namespace GameBauCua {
 	public ref class HomeGame : public System::Windows::Forms::Form
 	{
 	private:
+	// Tên biến không mang ý nghĩa, khó hiểu.
 		String^ a;
 		int momo;
 	public:
@@ -495,3 +496,6 @@ private: System::Void userName_Click(System::Object^ sender, System::EventArgs^ 
 }
 };
 }
+// Giao diện khôgn bắt mắt, bố cục ko đối xứng.
+// Game chỉ cho người dùng đặt 1 ô duy nhất, chưa đúng với thực tế vì chưa random ra được 3 cục xúc xắc.
+// Phần Login phải nhấp chuột vào ô đnăg nhập thay vì nhấn Enter.
